@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.toly1994.cubic.view.TestViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <View
+        android:background="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:background="#0000ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:background="#ffff00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:background="#00ff00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.toly1994.cubic.view.PathView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</com.toly1994.cubic.view.TestViewGroup>

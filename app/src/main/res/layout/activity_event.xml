@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.toly1994.cubic.event.EventViewGroupA
+        android:background="@android:color/holo_red_light"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.toly1994.cubic.event.EventViewA
+            android:background="@android:color/holo_blue_dark"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+        </com.toly1994.cubic.event.EventViewA>
+        <com.toly1994.cubic.event.EventViewGroupB
+            android:layout_marginTop="16dp"
+            android:background="@android:color/holo_green_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.toly1994.cubic.event.EventViewB
+                android:id="@+id/eventViewB"
+                android:background="@android:color/holo_orange_dark"
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+            </com.toly1994.cubic.event.EventViewB>
+        </com.toly1994.cubic.event.EventViewGroupB>
+    </com.toly1994.cubic.event.EventViewGroupA>
+
+    <com.toly1994.cubic.event.EventViewGroupAF
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_purple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.toly1994.cubic.event.EventViewA
+            android:id="@+id/eventViewA"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+        </com.toly1994.cubic.event.EventViewA>
+    </com.toly1994.cubic.event.EventViewGroupAF>
+</LinearLayout>

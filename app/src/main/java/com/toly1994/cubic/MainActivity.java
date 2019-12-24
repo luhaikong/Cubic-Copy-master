@@ -1,13 +1,14 @@
 package com.toly1994.cubic;
 
+import android.graphics.Matrix;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.toly1994.cubic.view.ClockView;
+import com.toly1994.cubic.view.ClockViewTest;
 
 public class MainActivity extends AppCompatActivity {
 
-    ClockView clockView;
+    ClockViewTest clockView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
